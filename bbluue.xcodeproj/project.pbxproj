@@ -22,6 +22,7 @@
 		6C65966F1C650F1700176182 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65966E1C650F1700176182 /* PhotoViewController.m */; };
 		6C6596721C650F2700176182 /* ImportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6596711C650F2700176182 /* ImportViewController.m */; };
 		6C6596751C650F3A00176182 /* BotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6596741C650F3A00176182 /* BotViewController.m */; };
+		6C6596791C65146300176182 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6596781C65146300176182 /* LeftMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		6C6596711C650F2700176182 /* ImportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportViewController.m; sourceTree = "<group>"; };
 		6C6596731C650F3A00176182 /* BotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BotViewController.h; sourceTree = "<group>"; };
 		6C6596741C650F3A00176182 /* BotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BotViewController.m; sourceTree = "<group>"; };
+		6C6596771C65146300176182 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		6C6596781C65146300176182 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				6C6596631C64F4A100176182 /* Storyboards */,
+				6C6596761C65142700176182 /* LeftMenu */,
 				6C6596621C64F47F00176182 /* TabBar Nav */,
 				6C65962E1C64ECBD00176182 /* Assets.xcassets */,
 				6C6596331C64ECBD00176182 /* Info.plist */,
@@ -197,6 +201,15 @@
 				6C6596301C64ECBD00176182 /* LaunchScreen.storyboard */,
 			);
 			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		6C6596761C65142700176182 /* LeftMenu */ = {
+			isa = PBXGroup;
+			children = (
+				6C6596771C65146300176182 /* LeftMenuViewController.h */,
+				6C6596781C65146300176182 /* LeftMenuViewController.m */,
+			);
+			name = LeftMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,6 +353,7 @@
 				6C6596611C64F10200176182 /* TabNavViewController.m in Sources */,
 				6C6596751C650F3A00176182 /* BotViewController.m in Sources */,
 				6C65965B1C64EFAB00176182 /* Constants.m in Sources */,
+				6C6596791C65146300176182 /* LeftMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
