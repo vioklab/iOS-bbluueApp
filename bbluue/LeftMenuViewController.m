@@ -21,7 +21,7 @@
     
     self.menuList = @[@"Profile", @"Stories", @"Timeline", @"Storage", @"Analytics", @"Notifications"];
     self.menuIcons = @[@"ico-menu-1", @"ico-menu-2", @"ico-menu-3", @"ico-menu-4", @"ico-menu-5", @"ico-menu-6"];
-
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -49,6 +49,11 @@
     return cell;
 }
 
+
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+    // This will create a "invisible" footer
+    return 0.01f;
+}
 /*
 #pragma mark - Navigation
 
