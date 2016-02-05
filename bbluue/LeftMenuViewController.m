@@ -57,7 +57,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    //[self performSegueWithIdentifier:@"ShowDetail" sender:self];
+    [self performSegueWithIdentifier:@"ShowDetail" sender:self];
     NSLog(@"row %li", indexPath.row );
 }
 /*
