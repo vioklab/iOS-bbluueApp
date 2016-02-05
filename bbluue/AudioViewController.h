@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  AudioViewController.h
 //  bbluue
 //
 //  Created by bbluue IMac on 2/5/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface AudioViewController : UIViewController
 
 @end
-

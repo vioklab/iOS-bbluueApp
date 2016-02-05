@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  VideoViewController.h
 //  bbluue
 //
 //  Created by bbluue IMac on 2/5/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface VideoViewController : UIViewController
 
 @end
-

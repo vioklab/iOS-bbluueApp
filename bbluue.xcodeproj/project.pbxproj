@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		6C6596211C64ECBD00176182 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6596201C64ECBD00176182 /* main.m */; };
 		6C6596241C64ECBD00176182 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6596231C64ECBD00176182 /* AppDelegate.m */; };
-		6C6596271C64ECBD00176182 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6596261C64ECBD00176182 /* FirstViewController.m */; };
-		6C65962A1C64ECBD00176182 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6596291C64ECBD00176182 /* SecondViewController.m */; };
 		6C65962D1C64ECBD00176182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C65962B1C64ECBD00176182 /* Main.storyboard */; };
 		6C65962F1C64ECBD00176182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C65962E1C64ECBD00176182 /* Assets.xcassets */; };
 		6C6596321C64ECBD00176182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6596301C64ECBD00176182 /* LaunchScreen.storyboard */; };
 		6C65963D1C64ECBD00176182 /* bbluueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65963C1C64ECBD00176182 /* bbluueTests.m */; };
 		6C6596481C64ECBD00176182 /* bbluueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6596471C64ECBD00176182 /* bbluueUITests.m */; };
+		6C6596581C64EDBB00176182 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6596571C64EDBB00176182 /* SWRevealViewController.m */; };
+		6C65965B1C64EFAB00176182 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65965A1C64EFAB00176182 /* Constants.m */; };
+		6C6596611C64F10200176182 /* TabNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6596601C64F10200176182 /* TabNavViewController.m */; };
+		6C6596691C650EF400176182 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6596681C650EF400176182 /* VideoViewController.m */; };
+		6C65966C1C650F0800176182 /* AudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65966B1C650F0800176182 /* AudioViewController.m */; };
+		6C65966F1C650F1700176182 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C65966E1C650F1700176182 /* PhotoViewController.m */; };
+		6C6596721C650F2700176182 /* ImportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6596711C650F2700176182 /* ImportViewController.m */; };
+		6C6596751C650F3A00176182 /* BotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6596741C650F3A00176182 /* BotViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +46,6 @@
 		6C6596201C64ECBD00176182 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6C6596221C64ECBD00176182 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C6596231C64ECBD00176182 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6C6596251C64ECBD00176182 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		6C6596261C64ECBD00176182 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		6C6596281C64ECBD00176182 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		6C6596291C64ECBD00176182 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		6C65962C1C64ECBD00176182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C65962E1C64ECBD00176182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C6596311C64ECBD00176182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +56,22 @@
 		6C6596431C64ECBD00176182 /* bbluueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bbluueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6596471C64ECBD00176182 /* bbluueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bbluueUITests.m; sourceTree = "<group>"; };
 		6C6596491C64ECBD00176182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C6596561C64EDBB00176182 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		6C6596571C64EDBB00176182 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		6C6596591C64EFAB00176182 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		6C65965A1C64EFAB00176182 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		6C65965F1C64F10200176182 /* TabNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabNavViewController.h; sourceTree = "<group>"; };
+		6C6596601C64F10200176182 /* TabNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabNavViewController.m; sourceTree = "<group>"; };
+		6C6596671C650EF400176182 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		6C6596681C650EF400176182 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		6C65966A1C650F0800176182 /* AudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioViewController.h; sourceTree = "<group>"; };
+		6C65966B1C650F0800176182 /* AudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioViewController.m; sourceTree = "<group>"; };
+		6C65966D1C650F1700176182 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		6C65966E1C650F1700176182 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		6C6596701C650F2700176182 /* ImportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportViewController.h; sourceTree = "<group>"; };
+		6C6596711C650F2700176182 /* ImportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportViewController.m; sourceTree = "<group>"; };
+		6C6596731C650F3A00176182 /* BotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BotViewController.h; sourceTree = "<group>"; };
+		6C6596741C650F3A00176182 /* BotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BotViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,17 +122,13 @@
 		6C65961E1C64ECBD00176182 /* bbluue */ = {
 			isa = PBXGroup;
 			children = (
-				6C6596221C64ECBD00176182 /* AppDelegate.h */,
-				6C6596231C64ECBD00176182 /* AppDelegate.m */,
-				6C6596251C64ECBD00176182 /* FirstViewController.h */,
-				6C6596261C64ECBD00176182 /* FirstViewController.m */,
-				6C6596281C64ECBD00176182 /* SecondViewController.h */,
-				6C6596291C64ECBD00176182 /* SecondViewController.m */,
-				6C65962B1C64ECBD00176182 /* Main.storyboard */,
+				6C6596631C64F4A100176182 /* Storyboards */,
+				6C6596621C64F47F00176182 /* TabBar Nav */,
 				6C65962E1C64ECBD00176182 /* Assets.xcassets */,
-				6C6596301C64ECBD00176182 /* LaunchScreen.storyboard */,
 				6C6596331C64ECBD00176182 /* Info.plist */,
 				6C65961F1C64ECBD00176182 /* Supporting Files */,
+				6C65965F1C64F10200176182 /* TabNavViewController.h */,
+				6C6596601C64F10200176182 /* TabNavViewController.m */,
 			);
 			path = bbluue;
 			sourceTree = "<group>";
@@ -122,6 +136,11 @@
 		6C65961F1C64ECBD00176182 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6C6596591C64EFAB00176182 /* Constants.h */,
+				6C65965A1C64EFAB00176182 /* Constants.m */,
+				6C6596221C64ECBD00176182 /* AppDelegate.h */,
+				6C6596231C64ECBD00176182 /* AppDelegate.m */,
+				6C6596551C64EDBB00176182 /* SlideOutMenuFiles */,
 				6C6596201C64ECBD00176182 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +162,41 @@
 				6C6596491C64ECBD00176182 /* Info.plist */,
 			);
 			path = bbluueUITests;
+			sourceTree = "<group>";
+		};
+		6C6596551C64EDBB00176182 /* SlideOutMenuFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6C6596561C64EDBB00176182 /* SWRevealViewController.h */,
+				6C6596571C64EDBB00176182 /* SWRevealViewController.m */,
+			);
+			path = SlideOutMenuFiles;
+			sourceTree = "<group>";
+		};
+		6C6596621C64F47F00176182 /* TabBar Nav */ = {
+			isa = PBXGroup;
+			children = (
+				6C65966D1C650F1700176182 /* PhotoViewController.h */,
+				6C65966E1C650F1700176182 /* PhotoViewController.m */,
+				6C6596671C650EF400176182 /* VideoViewController.h */,
+				6C6596681C650EF400176182 /* VideoViewController.m */,
+				6C65966A1C650F0800176182 /* AudioViewController.h */,
+				6C65966B1C650F0800176182 /* AudioViewController.m */,
+				6C6596701C650F2700176182 /* ImportViewController.h */,
+				6C6596711C650F2700176182 /* ImportViewController.m */,
+				6C6596731C650F3A00176182 /* BotViewController.h */,
+				6C6596741C650F3A00176182 /* BotViewController.m */,
+			);
+			name = "TabBar Nav";
+			sourceTree = "<group>";
+		};
+		6C6596631C64F4A100176182 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6C65962B1C64ECBD00176182 /* Main.storyboard */,
+				6C6596301C64ECBD00176182 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +266,7 @@
 				TargetAttributes = {
 					6C65961B1C64ECBD00176182 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = LCAZX8K65P;
 					};
 					6C6596371C64ECBD00176182 = {
 						CreatedOnToolsVersion = 7.2;
@@ -275,10 +330,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C65962A1C64ECBD00176182 /* SecondViewController.m in Sources */,
 				6C6596241C64ECBD00176182 /* AppDelegate.m in Sources */,
-				6C6596271C64ECBD00176182 /* FirstViewController.m in Sources */,
+				6C65966F1C650F1700176182 /* PhotoViewController.m in Sources */,
+				6C65966C1C650F0800176182 /* AudioViewController.m in Sources */,
+				6C6596581C64EDBB00176182 /* SWRevealViewController.m in Sources */,
 				6C6596211C64ECBD00176182 /* main.m in Sources */,
+				6C6596691C650EF400176182 /* VideoViewController.m in Sources */,
+				6C6596721C650F2700176182 /* ImportViewController.m in Sources */,
+				6C6596611C64F10200176182 /* TabNavViewController.m in Sources */,
+				6C6596751C650F3A00176182 /* BotViewController.m in Sources */,
+				6C65965B1C64EFAB00176182 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +478,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = bbluue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbluue.bbluue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,7 +491,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = bbluue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbluue.bbluue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
