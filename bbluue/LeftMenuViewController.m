@@ -54,6 +54,12 @@
     // This will create a "invisible" footer
     return 0.01f;
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [self performSegueWithIdentifier:@"ShowDetail" sender:self];
+    NSLog(@"row %li", indexPath.row );
+}
 /*
 #pragma mark - Navigation
 
