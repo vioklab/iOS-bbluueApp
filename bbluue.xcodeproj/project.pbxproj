@@ -23,6 +23,7 @@
 		6C6596721C650F2700176182 /* ImportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6596711C650F2700176182 /* ImportViewController.m */; };
 		6C6596751C650F3A00176182 /* BotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6596741C650F3A00176182 /* BotViewController.m */; };
 		6C6596791C65146300176182 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6596781C65146300176182 /* LeftMenuViewController.m */; };
+		6C79EC041C6E600C00864135 /* TakePhoto.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C79EC031C6E600C00864135 /* TakePhoto.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		6C6596741C650F3A00176182 /* BotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BotViewController.m; sourceTree = "<group>"; };
 		6C6596771C65146300176182 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
 		6C6596781C65146300176182 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		6C79EC031C6E600C00864135 /* TakePhoto.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TakePhoto.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,7 @@
 		6C6596631C64F4A100176182 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				6C79EC031C6E600C00864135 /* TakePhoto.storyboard */,
 				6C65962B1C64ECBD00176182 /* Main.storyboard */,
 				6C6596301C64ECBD00176182 /* LaunchScreen.storyboard */,
 			);
@@ -318,6 +321,7 @@
 			files = (
 				6C6596321C64ECBD00176182 /* LaunchScreen.storyboard in Resources */,
 				6C65962F1C64ECBD00176182 /* Assets.xcassets in Resources */,
+				6C79EC041C6E600C00864135 /* TakePhoto.storyboard in Resources */,
 				6C65962D1C64ECBD00176182 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,7 +498,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = bbluue/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbluue.bbluue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,7 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = bbluue/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbluue.bbluue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -581,6 +585,7 @@
 				6C65964E1C64ECBD00176182 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C65964F1C64ECBD00176182 /* Build configuration list for PBXNativeTarget "bbluueTests" */ = {
 			isa = XCConfigurationList;
@@ -589,6 +594,7 @@
 				6C6596511C64ECBD00176182 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C6596521C64ECBD00176182 /* Build configuration list for PBXNativeTarget "bbluueUITests" */ = {
 			isa = XCConfigurationList;
@@ -597,6 +603,7 @@
 				6C6596541C64ECBD00176182 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -27,40 +27,6 @@
             </objects>
             <point key="canvasLocation" x="750" y="-1212"/>
         </scene>
-        <!--Photo-->
-        <scene sceneID="hNz-n2-bh7">
-            <objects>
-                <viewController id="9pv-A4-QxB" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
-                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Photo View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="116" y="323" width="181.5" height="41.5"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.56078431370000004" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
-                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Photo" image="tab-photo" id="acW-dT-cKf">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
-        </scene>
         <!--Video-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
@@ -324,7 +290,7 @@
                     </tabBar>
                     <connections>
                         <outlet property="barButton" destination="eOp-wh-k56" id="ac1-59-OxO"/>
-                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="aga-Wh-wTq" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="rbz-Ju-J0O" kind="relationship" relationship="viewControllers" id="oAe-Tf-b3c"/>
                         <segue destination="PIz-oT-NBY" kind="relationship" relationship="viewControllers" id="5gV-B8-Fra"/>
@@ -335,6 +301,16 @@
             </objects>
             <point key="canvasLocation" x="37" y="171"/>
         </scene>
+        <!--TakePhoto-->
+        <scene sceneID="PbS-JJ-1Ug">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TakePhoto" id="aga-Wh-wTq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="quc-8x-G2O"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cHg-WX-zq3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="-320"/>
+        </scene>
     </scenes>
     <resources>
         <image name="ico-user" width="214" height="214"/>
@@ -342,7 +318,6 @@
         <image name="tab-audio" width="50" height="50"/>
         <image name="tab-bot" width="50" height="50"/>
         <image name="tab-import" width="50" height="50"/>
-        <image name="tab-photo" width="50" height="50"/>
         <image name="tab-video" width="50" height="50"/>
     </resources>
 </document>
