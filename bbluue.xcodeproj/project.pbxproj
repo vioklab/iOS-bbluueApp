@@ -24,6 +24,10 @@
 		6C6596751C650F3A00176182 /* BotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6596741C650F3A00176182 /* BotViewController.m */; };
 		6C6596791C65146300176182 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6596781C65146300176182 /* LeftMenuViewController.m */; };
 		6C79EC041C6E600C00864135 /* TakePhoto.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C79EC031C6E600C00864135 /* TakePhoto.storyboard */; };
+		6CF013131C6E87B20003A73A /* TakeVideo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF013111C6E87B20003A73A /* TakeVideo.storyboard */; };
+		6CF013161C6E87CA0003A73A /* TakeAudio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF013141C6E87CA0003A73A /* TakeAudio.storyboard */; };
+		6CF013191C6E87DD0003A73A /* ImportMedia.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF013171C6E87DD0003A73A /* ImportMedia.storyboard */; };
+		6CF0131C1C6E87F20003A73A /* BbluueBot.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0131A1C6E87F20003A73A /* BbluueBot.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +81,10 @@
 		6C6596771C65146300176182 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
 		6C6596781C65146300176182 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
 		6C79EC031C6E600C00864135 /* TakePhoto.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TakePhoto.storyboard; sourceTree = "<group>"; };
+		6CF013121C6E87B20003A73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TakeVideo.storyboard; sourceTree = "<group>"; };
+		6CF013151C6E87CA0003A73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TakeAudio.storyboard; sourceTree = "<group>"; };
+		6CF013181C6E87DD0003A73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ImportMedia.storyboard; sourceTree = "<group>"; };
+		6CF0131B1C6E87F20003A73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/BbluueBot.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,9 +207,13 @@
 		6C6596631C64F4A100176182 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				6C79EC031C6E600C00864135 /* TakePhoto.storyboard */,
-				6C65962B1C64ECBD00176182 /* Main.storyboard */,
 				6C6596301C64ECBD00176182 /* LaunchScreen.storyboard */,
+				6C65962B1C64ECBD00176182 /* Main.storyboard */,
+				6CF0131A1C6E87F20003A73A /* BbluueBot.storyboard */,
+				6CF013171C6E87DD0003A73A /* ImportMedia.storyboard */,
+				6CF013141C6E87CA0003A73A /* TakeAudio.storyboard */,
+				6C79EC031C6E600C00864135 /* TakePhoto.storyboard */,
+				6CF013111C6E87B20003A73A /* TakeVideo.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -319,10 +331,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CF013161C6E87CA0003A73A /* TakeAudio.storyboard in Resources */,
 				6C6596321C64ECBD00176182 /* LaunchScreen.storyboard in Resources */,
 				6C65962F1C64ECBD00176182 /* Assets.xcassets in Resources */,
 				6C79EC041C6E600C00864135 /* TakePhoto.storyboard in Resources */,
 				6C65962D1C64ECBD00176182 /* Main.storyboard in Resources */,
+				6CF013131C6E87B20003A73A /* TakeVideo.storyboard in Resources */,
+				6CF013191C6E87DD0003A73A /* ImportMedia.storyboard in Resources */,
+				6CF0131C1C6E87F20003A73A /* BbluueBot.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +423,38 @@
 				6C6596311C64ECBD00176182 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6CF013111C6E87B20003A73A /* TakeVideo.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CF013121C6E87B20003A73A /* Base */,
+			);
+			name = TakeVideo.storyboard;
+			sourceTree = "<group>";
+		};
+		6CF013141C6E87CA0003A73A /* TakeAudio.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CF013151C6E87CA0003A73A /* Base */,
+			);
+			name = TakeAudio.storyboard;
+			sourceTree = "<group>";
+		};
+		6CF013171C6E87DD0003A73A /* ImportMedia.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CF013181C6E87DD0003A73A /* Base */,
+			);
+			name = ImportMedia.storyboard;
+			sourceTree = "<group>";
+		};
+		6CF0131A1C6E87F20003A73A /* BbluueBot.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CF0131B1C6E87F20003A73A /* Base */,
+			);
+			name = BbluueBot.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

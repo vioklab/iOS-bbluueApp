@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xPJ-UB-CdS">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Assistant-->
+        <scene sceneID="Ba5-zQ-E9H">
+            <objects>
+                <viewController id="xPJ-UB-CdS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BIn-Fn-pCU"/>
+                        <viewControllerLayoutGuide type="bottom" id="pCt-cF-yTv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="I5D-o1-2kI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="bbluue BOT View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="dHy-wV-x0v">
+                                <rect key="frame" x="67" y="322" width="279" height="41.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.31764705879999999" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="dHy-wV-x0v" firstAttribute="centerX" secondItem="I5D-o1-2kI" secondAttribute="centerX" id="1No-CR-CvU"/>
+                            <constraint firstItem="dHy-wV-x0v" firstAttribute="centerY" secondItem="I5D-o1-2kI" secondAttribute="centerY" id="BDQ-b3-EpO"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Assistant" image="tab-bot" id="8dB-r6-iTM">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
+                    </tabBarItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dgc-g0-GaX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="2903"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tab-bot" width="50" height="50"/>
+    </resources>
+</document>

@@ -1,170 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0BX-At-5rg">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--Item-->
-        <scene sceneID="UGe-Nk-jcE">
-            <objects>
-                <viewController id="6sc-GL-IuQ" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="dfH-30-vHw"/>
-                        <viewControllerLayoutGuide type="bottom" id="hny-8F-92O"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="4SN-9B-wKF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.45345554640000002" green="0.99029356059999996" blue="0.89739742570000003" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="mRF-bk-eYZ"/>
-                    <navigationItem key="navigationItem" id="qvp-zb-e7G">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="5p0-Qp-RJZ"/>
-                    </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XOZ-kN-kmW" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="750" y="-1212"/>
-        </scene>
-        <!--Video-->
-        <scene sceneID="wg7-f3-ORb">
-            <objects>
-                <viewController id="8rJ-Kc-sve" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
-                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Video View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <rect key="frame" x="117.5" y="323" width="179" height="41.5"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.56078431370000004" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
-                            <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Video" image="tab-video" id="cPa-gy-q4n">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="750" y="480"/>
-        </scene>
-        <!--Audio-->
-        <scene sceneID="iXV-zw-Nnn">
-            <objects>
-                <viewController id="rbz-Ju-J0O" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Xza-Rp-wfG"/>
-                        <viewControllerLayoutGuide type="bottom" id="JuA-tV-rwN"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="AF5-Dx-Vma">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Audio View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="ZIJ-Ii-hL6">
-                                <rect key="frame" x="118" y="323" width="179.5" height="41.5"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.56078431370000004" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="ZIJ-Ii-hL6" firstAttribute="centerY" secondItem="AF5-Dx-Vma" secondAttribute="centerY" id="HcN-gy-gFc"/>
-                            <constraint firstItem="ZIJ-Ii-hL6" firstAttribute="centerX" secondItem="AF5-Dx-Vma" secondAttribute="centerX" id="awm-A3-Jju"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Audio" image="tab-audio" id="9yp-H6-hVV">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
-                    </tabBarItem>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1sF-V1-hBL" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="750" y="1288"/>
-        </scene>
-        <!--Import-->
-        <scene sceneID="4Zq-yl-bCs">
-            <objects>
-                <viewController id="PIz-oT-NBY" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Kyr-Zy-OzK"/>
-                        <viewControllerLayoutGuide type="bottom" id="q7L-dT-OPw"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="oIx-hR-aX0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Import View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="rY6-TO-Lxd">
-                                <rect key="frame" x="113" y="323" width="189.5" height="41.5"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.56078431370000004" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="rY6-TO-Lxd" firstAttribute="centerX" secondItem="oIx-hR-aX0" secondAttribute="centerX" id="KJy-7p-7KI"/>
-                            <constraint firstItem="rY6-TO-Lxd" firstAttribute="centerY" secondItem="oIx-hR-aX0" secondAttribute="centerY" id="X30-NK-hUp"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Import" image="tab-import" id="6Of-4w-b6A">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lAc-RI-vax" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="750" y="2107"/>
-        </scene>
-        <!--Assistant-->
-        <scene sceneID="Ba5-zQ-E9H">
-            <objects>
-                <viewController id="xPJ-UB-CdS" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="BIn-Fn-pCU"/>
-                        <viewControllerLayoutGuide type="bottom" id="pCt-cF-yTv"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="I5D-o1-2kI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="bbluue BOT View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="dHy-wV-x0v">
-                                <rect key="frame" x="67.5" y="323" width="279" height="41.5"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="0.31764705879999999" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="dHy-wV-x0v" firstAttribute="centerX" secondItem="I5D-o1-2kI" secondAttribute="centerX" id="1No-CR-CvU"/>
-                            <constraint firstItem="dHy-wV-x0v" firstAttribute="centerY" secondItem="I5D-o1-2kI" secondAttribute="centerY" id="BDQ-b3-EpO"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Assistant" image="tab-bot" id="8dB-r6-iTM">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-3"/>
-                    </tabBarItem>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Dgc-g0-GaX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="750" y="2903"/>
-        </scene>
         <!--Reveal View Controller-->
         <scene sceneID="vlg-7U-qdt">
             <objects>
@@ -236,9 +75,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="6sc-GL-IuQ" kind="show" identifier="ShowDetail" id="6qy-P4-p8r"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -290,16 +126,37 @@
                     </tabBar>
                     <connections>
                         <outlet property="barButton" destination="eOp-wh-k56" id="ac1-59-OxO"/>
+                        <segue destination="OOO-pz-yNm" kind="relationship" relationship="viewControllers" id="eWP-G1-zNP"/>
                         <segue destination="aga-Wh-wTq" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="rbz-Ju-J0O" kind="relationship" relationship="viewControllers" id="oAe-Tf-b3c"/>
-                        <segue destination="PIz-oT-NBY" kind="relationship" relationship="viewControllers" id="5gV-B8-Fra"/>
-                        <segue destination="xPJ-UB-CdS" kind="relationship" relationship="viewControllers" id="Xox-1O-XRD"/>
+                        <segue destination="q9r-zY-De9" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="uZD-63-Qkt" kind="relationship" relationship="viewControllers" id="oAe-Tf-b3c"/>
+                        <segue destination="OSh-2x-qsW" kind="relationship" relationship="viewControllers" id="5gV-B8-Fra"/>
+                        <segue destination="4Wo-6K-SvR" kind="relationship" relationship="viewControllers" id="Xox-1O-XRD"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="37" y="171"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9UI-8D-QSC">
+            <objects>
+                <viewController id="OOO-pz-yNm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ywq-vz-hbz"/>
+                        <viewControllerLayoutGuide type="bottom" id="d2p-Eg-uE7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iBu-mH-pgs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="6Xh-od-Dy1"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UxZ-xl-BOL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="727" y="-414"/>
         </scene>
         <!--TakePhoto-->
         <scene sceneID="PbS-JJ-1Ug">
@@ -309,15 +166,51 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cHg-WX-zq3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="748" y="16"/>
+        </scene>
+        <!--TakeVideo-->
+        <scene sceneID="DOY-VQ-Wtp">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TakeVideo" id="q9r-zY-De9" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Odm-HP-MSt"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GzR-H6-6tP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749" y="117"/>
+        </scene>
+        <!--TakeAudio-->
+        <scene sceneID="gfo-ED-MdZ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TakeAudio" id="uZD-63-Qkt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="lMy-w9-3a7"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WB9-yN-1lA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.5" y="216"/>
+        </scene>
+        <!--ImportMedia-->
+        <scene sceneID="b54-rx-XXb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ImportMedia" id="OSh-2x-qsW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="W4h-7z-rfG"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q76-05-mca" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="756.5" y="298"/>
+        </scene>
+        <!--BbluueBot-->
+        <scene sceneID="fw7-mG-I3a">
+            <objects>
+                <viewControllerPlaceholder storyboardName="BbluueBot" id="4Wo-6K-SvR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="y7z-W8-Jdv"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hz1-qT-Fot" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.5" y="398"/>
         </scene>
     </scenes>
     <resources>
         <image name="ico-user" width="214" height="214"/>
         <image name="menu-open" width="50" height="50"/>
-        <image name="tab-audio" width="50" height="50"/>
-        <image name="tab-bot" width="50" height="50"/>
-        <image name="tab-import" width="50" height="50"/>
-        <image name="tab-video" width="50" height="50"/>
     </resources>
 </document>

@@ -31,6 +31,7 @@
             tbi.image = [tbi.image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         }
     }
+    // https://www.youtube.com/watch?v=JDPkyltAqmo
     
     // MENU BAR BUTTON
     _barButton.target = self.revealViewController;
